@@ -2,7 +2,7 @@ import rpyc
 import constants
 
 
-class Client:
+class Peer:
 
     # Connect to the server
     conn = rpyc.connect(constants.SERVER, constants.PORT)
